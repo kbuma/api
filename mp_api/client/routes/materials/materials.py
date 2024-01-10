@@ -324,7 +324,7 @@ class MaterialsRester(BaseRester[MaterialsDoc]):
         else:
             return []
 
-    def get_blessed_calcs(
+    def get_blessed_entries(
         self,
         run_type: RunType = RunType.R2SCAN,
         material_ids: Optional[list[str]] = None,
